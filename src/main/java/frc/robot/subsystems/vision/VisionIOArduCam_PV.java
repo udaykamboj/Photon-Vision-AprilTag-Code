@@ -35,7 +35,6 @@ public class VisionIOArduCam_PV implements VisionIO {
 
             inputs.targetYawDegrees = bestTarget.getYaw();
             inputs.targetPitchDegrees = bestTarget.getPitch();
-
          
             inputs.distanceToTargetMeters = PhotonUtils.calculateDistanceToTargetMeters(
                     CAMERA_HEIGHT_METERS,

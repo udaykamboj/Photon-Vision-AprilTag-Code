@@ -16,4 +16,10 @@ public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
+
+  public static final class VisionConstants {
+    public static final String CAMERA_NAME = "Arducam_OV9281";
+
+  }
+
 }
