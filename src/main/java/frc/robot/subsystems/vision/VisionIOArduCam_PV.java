@@ -42,6 +42,8 @@ public class VisionIOArduCam_PV implements VisionIO {
                     CAMERA_PITCH_RADIANS,
                     Units.degreesToRadians(inputs.targetPitchDegrees)
             );
+
+            
         } else {
         
             inputs.targetYawDegrees = 0.0;
